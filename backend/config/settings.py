@@ -56,10 +56,10 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": config("DB_NAME", default="spassu"),
-        "USER": config("DB_USER", default="postgres"),
-        "PASSWORD": config("DB_PASSWORD", default="123456"),
+        "USER": config("DB_USER", default="spassu"),
+        "PASSWORD": config("DB_PASSWORD", default="spassu"),
         "HOST": config("DB_HOST", default="localhost"),
-        "PORT": config("DB_PORT", default="5433"),
+        "PORT": config("DB_PORT", default="5432"),
     }
 }
 
